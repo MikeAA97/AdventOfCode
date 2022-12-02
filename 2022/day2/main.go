@@ -92,24 +92,6 @@ func main() {
 	}
 	fmt.Println("Part 1 Total Score:", score)
 	fmt.Println("Part 2 Total Score:", score2)
-
-	// Loop through adding in running total and resetting value at the prescense of newline
-	// for _, v := range file {
-	// 	if v != "" {
-	// 		integer_value, err := strconv.Atoi(v)
-	// 		if err != nil {
-	// 			panic(err)
-	// 		}
-
-	// 		total += integer_value
-	// 	}
-	// 	if v == "" {
-	// 		fmt.Println("Total:", total)
-	// 		results = append(results, total)
-
-	// 		total = 0
-	// 	}
-	// }
 }
 
 func open(filename string) ([]string, error) {
